@@ -37,22 +37,8 @@
 </snapshots>
 </repository>
 </repositories>
-     <properties>
-        <sonar.host.url>https://byld-p-cloud-migration-sonarhelm.byld.eks.pvgroup.intranet</sonar.host.url>
-        <sonar.login>squ_5c2d8ebfb5ff71cd192838aaefb9a5e084a1b782</sonar.login>
-    </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>4.0.0.4121</version>
-            </plugin>
-        </plugins>
-    </build>
- 
-    <pluginRepositories>
+         
+   <pluginRepositories>
 <pluginRepository>
 <id>maven-test-repo</id>
 <name>Artifactory Plugin Repository</name>
