@@ -9,26 +9,26 @@
 <version>1.3-SNAPSHOT</version>
 <name>Maven Project</name>
 <description>Sample Maven project with a working, deployable site.</description>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory</url>
+<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
  
     <distributionManagement>
 <repository>
-<id>maven-test-repo-releases</id>
+<id>maven-remote-release</id>
 <name>Artifactory Release Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-test-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
 </repository>
 <snapshotRepository>
-<id>maven-test-repo-snapshots</id>
+<id>maven-remote-snapshots</id>
 <name>Artifactory Snapshot Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-test-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
 </snapshotRepository>
 </distributionManagement>
  
     <repositories>
 <repository>
-<id>maven-test-repo</id>
+<id>maven-remote</id>
 <name>Artifactory Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-test-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
 <releases>
 <enabled>true</enabled>
 </releases>
@@ -40,9 +40,9 @@
          
    <pluginRepositories>
 <pluginRepository>
-<id>maven-test-repo</id>
+<id>maven-remote</id>
 <name>Artifactory Plugin Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-test-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
 <releases>
 <enabled>true</enabled>
 </releases>
