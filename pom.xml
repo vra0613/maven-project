@@ -6,21 +6,21 @@
     <groupId>com.example.maven-project</groupId>
 <artifactId>maven-project</artifactId>
 <packaging>pom</packaging>
-<version>1.3-SNAPSHOT</version>
+<version>1.4-SNAPSHOT</version>
 <name>Maven Project</name>
 <description>Sample Maven project with a working, deployable site.</description>
-<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory</url>
  
     <distributionManagement>
 <repository>
 <id>maven-remote-release</id>
 <name>Artifactory Release Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/Maven_Repo</url>
 </repository>
 <snapshotRepository>
 <id>maven-remote-snapshots</id>
 <name>Artifactory Snapshot Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/Maven_Repo</url>
 </snapshotRepository>
 </distributionManagement>
  
@@ -28,7 +28,7 @@
 <repository>
 <id>maven-remote</id>
 <name>Artifactory Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/Maven_Repo</url>
 <releases>
 <enabled>true</enabled>
 </releases>
@@ -42,7 +42,7 @@
 <pluginRepository>
 <id>maven-remote</id>
 <name>Artifactory Plugin Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/ui/native/maven-remote/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/Maven_Repo</url>
 <releases>
 <enabled>true</enabled>
 </releases>
