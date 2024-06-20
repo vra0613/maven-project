@@ -4,10 +4,10 @@
 <modelVersion>4.0.0</modelVersion>
  
     <groupId>com.example.maven-project</groupId>
-<artifactId>maven-project</artifactId>
+<artifactId>maven-repo</artifactId>
 <packaging>pom</packaging>
 <version>1.0-SNAPSHOT</version>
-<name>Maven Project</name>
+<name>maven-repo</name>
 <description>Sample Maven project with a working, deployable site.</description>
 <url>https://artifactory-cab.pvgroup.intranet/ui</url> <!-- Updated URL -->
  
