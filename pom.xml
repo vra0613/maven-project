@@ -1,40 +1,34 @@
-<project xmlns="
-http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="
-http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="
-http://maven.apache.org/POM/4.0.0
-http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <modelVersion>4.0.0</modelVersion>
-<groupId>com.example.maven-project</groupId>
+ 
+    <groupId>com.example.maven-project</groupId>
 <artifactId>maven-project</artifactId>
 <packaging>pom</packaging>
 <version>1.0-SNAPSHOT</version>
 <name>Maven Project</name>
 <description>Sample Maven project with a working, deployable site.</description>
-<url>
-https://artifactory-cab.pvgroup.intranet/ui/</url>
-<!-- Updated URL -->
-<distributionManagement>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory</url> <!-- Updated URL -->
+ 
+    <distributionManagement>
 <repository>
 <id>maven-repo-releases</id>
 <name>Artifactory Release Repository</name>
-<url>
-https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 </repository>
 <snapshotRepository>
 <id>maven-repo-snapshots</id>
 <name>Artifactory Snapshot Repository</name>
-<url>
-https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 </snapshotRepository>
 </distributionManagement>
-<repositories>
+ 
+    <repositories>
 <repository>
 <id>maven-repo</id>
 <name>Artifactory Repository</name>
-<url>
-https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 <releases>
 <enabled>true</enabled>
 </releases>
@@ -43,12 +37,12 @@ https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 </snapshots>
 </repository>
 </repositories>
-<pluginRepositories>
+ 
+    <pluginRepositories>
 <pluginRepository>
 <id>maven-repo</id>
 <name>Artifactory Plugin Repository</name>
-<url>
-https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 <releases>
 <enabled>true</enabled>
 </releases>
